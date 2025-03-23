@@ -71,7 +71,7 @@ def send_price(message):
 @bot.message_handler(commands=["ayuda"])
 def send_help(message):
     #Da los precios del servicio al usuario del bot
-    bot.reply_to(message, ("Si necesitas ayuda contactar con @Macflys"))
+    bot.reply_to(message, ("Si necesitas ayuda contactar con @xsmkez"))
     
 #responde al comando /condiciones
 @bot.message_handler(commands=["condiciones"])
@@ -143,7 +143,7 @@ def Mensajes_De_texto(message):
     elif message.text == "💳Precios💶":
             bot.reply_to(message, ("TARIFA ANUAL: 1 dispositivo = 60€"))
     else:
-        bot.send_message(message.chat.id, """Bienvenido a Macflys los comandos disponibles son:
+        bot.send_message(message.chat.id, """Bienvenido a DEMO los comandos disponibles son:
                                             \n/start \n/ayuda \n/demo \n/pagos \n/precios \n/condiciones \n/horarios""", reply_markup= markup)
         
  
